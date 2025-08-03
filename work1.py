@@ -1,4 +1,4 @@
-import random
+import ra
 
 player_hp = 100
 boss_hp = 200
@@ -46,4 +46,5 @@ while player_hp > 0 and boss_hp > 0:
     if boss_hp <= 0:
         print('You have defeated the boss!')
         print('Congratulations! You win!')
+
         break
